@@ -1,12 +1,12 @@
 class Wind {
-  double speed;
-  int deg;
+  String speed;
+  String deg;
 
   Wind({this.speed, this.deg});
 
   Wind.fromJson(Map<String, dynamic> json) {
-    speed = json['speed'];
-    deg = json['deg'];
+    speed = json['speed'].toString();
+    deg = json['deg'].toString();
   }
 
   Map<String, dynamic> toJson() {

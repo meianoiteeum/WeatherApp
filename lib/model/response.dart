@@ -7,15 +7,16 @@ import 'coord.dart';
 import 'main.dart';
 
 class Body {
-  Coord coord;
-  List<Weather> weather;
-  String base;
-  Main main;
-  int visibility;
-  Wind wind;
-  Clouds clouds;
   int dt;
+  Main main;
+  List<Weather> weather;
+  Clouds clouds;
+  Wind wind;
+  int visibility;
+  Coord coord;
   Sys sys;
+
+  String base;
   int timezone;
   int id;
   String name;

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/model/response.dart';
 import 'package:flutter_app/widget/listView.dart';
 
 class HomePage extends StatefulWidget {
@@ -21,7 +22,7 @@ class _HomePageState extends State<HomePage>{
         centerTitle: true,
         title: Text("Weather App"),
       ),
-      body: CitiesListView()
+      body: CitiesListView(null)
     );
   }
 }
